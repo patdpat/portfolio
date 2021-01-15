@@ -1,5 +1,5 @@
 # Portfolio Website with Django Framework
-## for 01219449-60 Principle of Software Architecture
+## 01219449-60 Principle of Software Architecture
 ## 6110546046 Sidtipat Kietchai
 
 ## Setup
@@ -22,7 +22,7 @@ python manage.py runserver
 ```
 Public endpoint is at http://localhost:8000/
 
-Admin endpoint is at http://127.0.0.1:8000/admin/, `user: admin`
+Admin endpoint is at http://127.0.0.1:8000/admin/
 
 ## Testing
 
