@@ -253,17 +253,23 @@
 
         <section id="contact" class="site-section section-form text-center">
             <div class="container">
-
+        
                 <h3>Contact</h3>
                 <img src="{% static 'assets/img/lines.svg' %}" class="img-lines" alt="lines">
-                <Br>
-                <h4>E-MAIL</h4>
-                <h4>s.kietchai@outlook.com</h4>
-                <Br>
-                <Br>
-                <h4>PHONE</h4>
-                <h4>+66 81-882-7322</h4>
-                
+                <form>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>   
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
+                        </div>
+                    </div>
+                    <button href="#" class="btn btn-border" type="submit">Contact me <span class="glyphicon glyphicon-send"></span></button>
+                </form>
             </div>
         </section><!-- /.section-form -->
 
