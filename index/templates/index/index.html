@@ -96,9 +96,9 @@
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
                         <h2>About</h2>
-                        <img src="assets/img/lines.svg" class="img-lines" alt="lines"> {% static '' %}
+                        <img src="{% static 'assets/img/lines.svg' %}" class="img-lines" alt="lines"> 
                         <p>Hello! I'm Pat, a software engineering student, a Pythonian, and a guy slighty obsessed for code quality. I’m currently looking for an internship. If you have a position that you thought I can apply or think you need my help with something, then hit me up !</p>
-                        <a href="assets/pat_resume.pdf" class="btn btn-fill" target="_blank" download>Download my resume</a> {% static '' %}
+                        <a href="{% static 'assets/pat_resume.pdf' %}" class="btn btn-fill" target="_blank" download>Download my resume</a> 
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
             <div class="container">
                 <div class="text-center">
                     <h3>My Skills</h3>
-                    <img src="assets/img/lines.svg" class="img-lines" alt="lines"> {% static '' %}
+                    <img src="{% static 'assets/img/lines.svg' %}" class="img-lines" alt="lines"> 
                 </div>
                 <div class="row">
                     <div class="col-md-4">
@@ -162,25 +162,25 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h3>What i can do</h3>
-                        <img src="assets/img/lines.svg" class="img-lines" alt="lines"> {% static '' %}
+                        <img src="{% static 'assets/img/lines.svg' %}" class="img-lines" alt="lines"> 
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
-                            <img src="assets/img/front-end.svg" alt="Front End Developer"> {% static '' %}
+                            <img src="{% static 'assets/img/front-end.svg' %}" alt="Front End Developer"> 
                             <h4>Front-end</h4>
                             <p>As a javascript developer, I have experience in HTML5 and CSS3 techniques working with jQuery or more advanced javascript MVC frameworks such as React, and python MVT frameworks such as Django.</p>
                         </div><!-- /.service -->
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
-                            <img src="assets/img/back-end.svg" alt="Back End Developer"> {% static '' %}
+                            <img src="{% static 'assets/img/back-end.svg' %}" alt="Back End Developer"> 
                             <h4>Back-end</h4>
                             <p>The past year I've been playing with Django REST frameworks, I've written services supporting my front-end framework application, including REST APIs.</p>
                         </div><!-- /.service -->
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
-                            <img src="assets/img/data.svg" alt="Data Science"> {% static '' %}
+                            <img src="{% static 'assets/img/data.svg' %}" alt="Data Science"> 
                             <h4>Data Science</h4>
                             <p>As well as doing development, I can also perform data clensing and querying from database, but I've had little experience in this field and still have a lot of room to learn and improve data science skills.</p>
                         </div><!-- /.service -->
@@ -193,12 +193,12 @@
             <div class="container">
                 <div class="text-center">
                     <h3>My recent Experiences</h3>
-                    <img src="assets/img/lines.svg" class="img-lines" alt="lines"> {% static '' %}
+                    <img src="{% static 'assets/img/lines.svg' %}" class="img-lines" alt="lines"> 
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="/assets/img/Portfolio-1.jpg" class="img-res" alt=""> {% static '' %}
+                            <img src="{% static '/assets/img/Portfolio-1.jpg' %}" class="img-res" alt=""> 
                             <div class="portfolio-item-info">
                                 <h4>Hult prize - Event coordinator</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
@@ -208,7 +208,7 @@
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/Portfolio-2.jpg" class="img-res" alt="">{% static '' %}
+                            <img src="{% static 'assets/img/Portfolio-2.jpg' %}" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>NTi CO.Ltd - Intern Software Engineer</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
@@ -218,7 +218,7 @@
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/Portfolio-3.jpg" class="img-res" alt=""> {% static '' %}
+                            <img src="{% static 'assets/img/Portfolio-3.jpg' %}" class="img-res" alt=""> 
                             <div class="portfolio-item-info">
                                 <h4>TEDxKasetsartU - Marketing team</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
@@ -228,7 +228,7 @@
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/Portfolio-4.jpg" class="img-res" alt="">{% static '' %}
+                            <img src="{% static 'assets/img/Portfolio-4.jpg' %}" class="img-res" alt="">
                             <div class="portfolio-item-info">
                                 <h4>TEDxKasetsartU - Web developer</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
@@ -255,7 +255,7 @@
             <div class="container">
 
                 <h3>Contact</h3>
-                <img src="assets/img/lines.svg" class="img-lines" alt="lines">{% static '' %}
+                <img src="{% static 'assets/img/lines.svg' %}" class="img-lines" alt="lines">
                 <Br>
                 <h4>E-MAIL</h4>
                 <h4>s.kietchai@outlook.com</h4>
@@ -276,7 +276,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-1.jpg" alt=""> {% static '' %}
+            <img class="img-res" src="{% static 'assets/img/portfolio-1.jpg' %}" alt=""> 
           </div>
           <div class="modal-body">
             <h4 class="modal-title">Hult prize at Kasetsart - Event coordinator</h4>
@@ -292,7 +292,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-2.jpg" alt=""> {% static '' %}
+            <img class="img-res" src="{% static 'assets/img/portfolio-2.jpg' %}" alt=""> 
           </div>
           <div class="modal-body">
             <h4 class="modal-title">NTi CO.Ltd - Intern Software Engineer</h4>
@@ -309,7 +309,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-3.jpg" alt=""> {% static '' %}
+            <img class="img-res" src="{% static 'assets/img/portfolio-3.jpg' %}" alt=""> 
           </div>
           <div class="modal-body">
             <h4 class="modal-title">TEDxKasetsartU - Marketing team staff</h4>
@@ -326,7 +326,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="assets/img/portfolio-4.jpg" alt="">{% static '' %}
+            <img class="img-res" src="{% static 'assets/img/portfolio-4.jpg' %}" alt="">
           </div>
           <div class="modal-body">
             <h4 class="modal-title">TEDxKasetsartU - Head of web design & Developer</h4>
